@@ -1,0 +1,25 @@
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__card {
+        padding: 15px;
+        border-radius: 10px;
+        border: 1px solid #cfcfcf;
+        box-shadow: none;
+        min-height: 300px;
+        min-width: 400px;
+        max-width: 400px;
+
+        &:nth-of-type(2) {
+            max-width: 510px;
+            margin-left: 20px;
+        }
+    }
+
+    &__result {
+        word-break: break-all;
+    }
+}
